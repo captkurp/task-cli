@@ -32,7 +32,7 @@ def main():
         update(task_num, new_desc)
     
     elif command == 'help':
-        print('Available commands: "add (description)" "delete (task number)" "update (task number) (new description)')
+        print('Available commands: "add (description)" "delete (task number)" "update (task number) (new description)" "list (todo, in-progress, done)"')
 
     elif command == 'list':
         try:
